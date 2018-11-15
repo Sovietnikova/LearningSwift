@@ -12,8 +12,6 @@ var responseMesseges = [200: "OK",
                         404: "File not found",
                         500: "Internet servar error"]
 
-print(responseMesseges[403])
-
 let httpResponse = [200, 403, 310]
 for code in httpResponse {
     if let messege = responseMesseges[code] {
@@ -31,6 +29,7 @@ var favoriteGeners: Set = ["Rock", "Classic", "Pop", "Jazz"]
 //var favoriteGeners2: Set<String> = ["Rock", "Classic", "Pop", "Jazz"]
 
 print("I have \(favoriteGeners.count) favorite generes of music")
+print(favoriteGeners)
 
 if favoriteGeners.isEmpty {
     print("I don't like music")
@@ -77,4 +76,4 @@ func getMinimum(myArr: [Int]) -> Int {
     }
     return x
 }
-var numberMin = getMinimum(myArr: [4, 5, 7, 2, 4])
+var newNumberWitMinimum = getMinimum(myArr: [4, 5, 7, 2, 4])
