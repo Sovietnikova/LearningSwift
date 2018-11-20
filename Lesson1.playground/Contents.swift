@@ -2,13 +2,13 @@ import UIKit
 
 //Data types:
 
-let int: Int = 3
+let int: Int = 6
 let doub: Double = 3.5
 let str: String = "Hello"
 let bool: Bool = true
 let chsr: Character = "d"
 
-var x: Int = 20
+var x: Int = 10
 var y: Int = 20
 
 if x > 10 {
@@ -66,9 +66,9 @@ func printSum(x: Int, y: Int) -> Int {
     return(x + y)
 }
 
-let ourSum = printSum(x: 20, y: 30)
+var ourSum = printSum(x: 20, y: 30)
 
-let myArr = [3, 5, 7, 10, 45]
+var myArr = [3, 5, 7, 10, 45]
 
 var sumOfArr = 0
 for x in myArr {
