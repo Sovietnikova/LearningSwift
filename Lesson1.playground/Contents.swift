@@ -114,7 +114,8 @@ func eachSecondNumber(ourArr: [Int]) -> [Int] { // argument "ourArr: [Int]) -> [
         if index % 2 == 1 {
             updateArray.append(element)
         }
-        return (updateArray)
+    }
+    return (updateArray)
 }
 //- заходим в массив
 //- берем индекс элемента
@@ -122,3 +123,4 @@ func eachSecondNumber(ourArr: [Int]) -> [Int] { // argument "ourArr: [Int]) -> [
 //- добавляем элемент в новый массив (новый массив.append(element)
 //- возращаем новый массив
 
+//Some changes in our first Lesson to see how git works
