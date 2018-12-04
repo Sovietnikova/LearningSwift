@@ -4,7 +4,7 @@ import UIKit
 var emptyDict: [String: Int] = [:]
 var emptyDict2 = [Int: String]()
 
-let myFirstDict: Dictionary = ["Nikolay": 2, "Slava": 2.5, "Olga": 2.2, "Oksana": 1.8]
+let myFirstDict: Dictionary = ["Kolya": 2, "Slava": 2.5, "Olga": 2.2, "Oksana": 1.8]
 myFirstDict["Slava"]
 
 var responseMesseges = [200: "OK",
@@ -76,5 +76,7 @@ func getMinimum(myArr: [Int]) -> Int {
     }
     return x
 }
+
 var newNumberMinimum = getMinimum(myArr: [4, 5, 7, 2, 4])
+
 
