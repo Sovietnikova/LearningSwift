@@ -45,7 +45,7 @@ let firstOpt = dict["first"]
 //force unwrapping (Bad)
 //print(firstOpt! * 2)
 
-//if - let
+//if - let (good)
 if let first = firstOpt {
     print(first * 2)
 }

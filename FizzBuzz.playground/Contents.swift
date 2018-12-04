@@ -16,6 +16,6 @@ func fizzBuzz(_ n: Int) -> [String] {
     return result
 }
 
-let n = 15
+let n = 16
 let ourResult = fizzBuzz(n)
 print(ourResult)
