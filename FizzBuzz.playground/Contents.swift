@@ -19,3 +19,8 @@ func fizzBuzz(_ n: Int) -> [String] {
 let n = 16
 let ourResult = fizzBuzz(n)
 print(ourResult)
+
+//O(n) - линейная сложность
+//O(n*n) - квадратичная сложность
+//O(log n) - логарифмическая сложность
+
