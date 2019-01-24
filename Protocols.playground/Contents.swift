@@ -33,7 +33,7 @@ class Motorcycle: Vehicle {
     }
     
     func accelerate() {
-        speed += 10
+        speed += 20
     }
 }
 
@@ -65,3 +65,11 @@ arr.forEach {
 collectorFirst.collection.forEach { vehicle in
     print(vehicle.speed)
 }
+
+extension Vehicle {
+    func thisIsFuncForOurProtocol() {
+        print("I am VEHICLE!!!")
+    }
+}
+
+car1.thisIsFuncForOurProtocol()
