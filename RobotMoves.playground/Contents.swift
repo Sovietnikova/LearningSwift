@@ -53,6 +53,6 @@ if UD == 0 && LR == 0 {
 }
     }
 
-let robotReturn = "ULR"
+let robotReturn = "ULDRRL"
 
 circle(robotReturn)
